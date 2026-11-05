@@ -1,0 +1,34 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "name"
+                },
+                {
+                    "name": "address"
+                }
+            ],
+            [
+                {
+                    "name": "entrances"
+                },
+                {
+                    "name": "floors"
+                }
+            ],
+            [
+                {
+                    "name": "unitsPerFloor"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "description",
+                    "fullWidth": true
+                }
+            ]
+        ]
+    }
+]

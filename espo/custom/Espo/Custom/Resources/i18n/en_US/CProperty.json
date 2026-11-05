@@ -1,0 +1,83 @@
+{
+    "fields": {
+        "name": "Name",
+        "status": "Status",
+        "propertyType": "Type",
+        "row": "Row / Floor",
+        "position": "Number in Row",
+        "area": "House Area, m²",
+        "plotArea": "Plot Area, sotkas",
+        "price": "Price",
+        "reservedUntil": "Reserved Until",
+        "housingProject": "Project",
+        "contact": "Buyer",
+        "opportunity": "Opportunity",
+        "entrance": "Entrance",
+        "rooms": "Rooms"
+    },
+    "links": {
+        "housingProject": "Project",
+        "contact": "Buyer",
+        "opportunity": "Opportunity"
+    },
+    "labels": {
+        "Create CProperty": "Create Property",
+        "Chessboard": "Chessboard"
+    },
+    "options": {
+        "status": {
+            "Free": "Free",
+            "Reserved": "Reserved",
+            "Contract": "Sold",
+            "Construction": "Under Construction",
+            "Delivered": "Delivered",
+            "Unavailable": "Not for Sale"
+        },
+        "propertyType": {
+            "House": "House",
+            "Plot": "Plot",
+            "Townhouse": "Townhouse",
+            "Apartment": "Apartment"
+        },
+        "rooms": {
+            "": "",
+            "studio": "Studio",
+            "1": "1 room",
+            "2": "2 rooms",
+            "3": "3 rooms",
+            "4": "4+ rooms"
+        }
+    },
+    "tooltips": {
+        "row": "Floor for apartments, street or row for a village. Rows of the chessboard.",
+        "position": "Number of the property within the row. Columns of the chessboard.",
+        "entrance": "Entrance or building section number. Empty for a standalone house."
+    },
+    "strings": {
+        "selectProject": "Project",
+        "noProject": "Without project",
+        "noProjects": "No projects yet. Create a project, then add properties to it.",
+        "empty": "No properties in this project yet. Click an empty cell or the + button to add one.",
+        "total": "Total",
+        "rowLabel": "Row",
+        "addRow": "Add row",
+        "overlap": "Several properties in one cell",
+        "unitArea": "m²",
+        "unitPlot": "sotkas",
+        "roomsShort": {
+            "studio": "St",
+            "1": "1r",
+            "2": "2r",
+            "3": "3r",
+            "4": "4r+"
+        },
+        "entranceLabel": "Entrance",
+        "noEntrance": "No entrance",
+        "allRooms": "All",
+        "soldSum": "sold for",
+        "onSaleSum": "on sale for",
+        "million": "M",
+        "floorLabel": "Floor",
+        "apartmentPrefix": "Apt. "
+    }
+}

@@ -1,0 +1,17 @@
+# Секреты и локальные настройки (если пароли вынесут из docker-compose.yml)
+.env
+.env.*
+
+# Резервные копии базы CRM: в них данные клиентов
+backups/
+*.sql
+*.sql.gz
+
+# Логи и временные файлы
+*.log
+*.tmp
+
+# Служебные файлы Windows и macOS
+Thumbs.db
+desktop.ini
+.DS_Store

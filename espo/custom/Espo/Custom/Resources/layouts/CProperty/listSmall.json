@@ -1,0 +1,15 @@
+[
+    {
+        "name": "name",
+        "link": true
+    },
+    {
+        "name": "status",
+        "width": 20
+    },
+    {
+        "name": "price",
+        "width": 20,
+        "align": "right"
+    }
+]

@@ -1,0 +1,28 @@
+{
+    "fields": {
+        "name": "Name",
+        "address": "Address",
+        "properties": "Properties",
+        "entrances": "Entrances",
+        "floors": "Floors",
+        "unitsPerFloor": "Units per Floor"
+    },
+    "links": {
+        "properties": "Properties"
+    },
+    "labels": {
+        "Create CHousingProject": "Create Project",
+        "Chessboard": "Chessboard",
+        "Generate Units": "Generate Units"
+    },
+    "tooltips": {
+        "unitsPerFloor": "Entrances × floors × units per floor — used by the Generate Units button. Leave empty for a village."
+    },
+    "strings": {
+        "needParams": "Fill in Entrances, Floors and Units per Floor and save the project.",
+        "confirmGenerate": "Create {count} units (entrances: {entrances}, floors: {floors}, per floor: {perFloor})? Existing units are kept.",
+        "nothingToGenerate": "All units already exist.",
+        "generating": "Creating units: {done} of {count}…",
+        "generated": "Units created: {count}."
+    }
+}

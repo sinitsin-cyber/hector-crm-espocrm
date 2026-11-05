@@ -1,0 +1,11 @@
+{
+    "links": {
+        "cProperties": {
+            "type": "hasMany",
+            "foreign": "contact",
+            "entity": "CProperty",
+            "audited": false,
+            "isCustom": true
+        }
+    }
+}

@@ -1,0 +1,39 @@
+[
+    {
+        "name": "name",
+        "link": true
+    },
+    {
+        "name": "housingProject",
+        "width": 16
+    },
+    {
+        "name": "entrance",
+        "width": 8
+    },
+    {
+        "name": "row",
+        "width": 8
+    },
+    {
+        "name": "rooms",
+        "width": 10
+    },
+    {
+        "name": "status",
+        "width": 11
+    },
+    {
+        "name": "area",
+        "width": 9
+    },
+    {
+        "name": "price",
+        "width": 12,
+        "align": "right"
+    },
+    {
+        "name": "contact",
+        "width": 13
+    }
+]

@@ -1,0 +1,10 @@
+{
+    "scopeNames": {
+        "CHousingProject": "Project",
+        "CProperty": "Property"
+    },
+    "scopeNamesPlural": {
+        "CHousingProject": "Projects",
+        "CProperty": "Properties"
+    }
+}

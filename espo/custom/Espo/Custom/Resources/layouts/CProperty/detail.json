@@ -1,0 +1,68 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "name"
+                },
+                {
+                    "name": "housingProject"
+                }
+            ],
+            [
+                {
+                    "name": "propertyType"
+                },
+                {
+                    "name": "status"
+                }
+            ],
+            [
+                {
+                    "name": "entrance"
+                },
+                {
+                    "name": "rooms"
+                }
+            ],
+            [
+                {
+                    "name": "row"
+                },
+                {
+                    "name": "position"
+                }
+            ],
+            [
+                {
+                    "name": "area"
+                },
+                {
+                    "name": "plotArea"
+                }
+            ],
+            [
+                {
+                    "name": "price"
+                },
+                {
+                    "name": "reservedUntil"
+                }
+            ],
+            [
+                {
+                    "name": "contact"
+                },
+                {
+                    "name": "opportunity"
+                }
+            ],
+            [
+                {
+                    "name": "description",
+                    "fullWidth": true
+                }
+            ]
+        ]
+    }
+]

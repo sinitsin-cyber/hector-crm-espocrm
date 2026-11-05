@@ -1,0 +1,35 @@
+{
+    "controller": "custom:controllers/c-property",
+    "boolFilterList": [
+        "onlyMy"
+    ],
+    "color": "#5fa560",
+    "iconClass": "fas fa-home",
+    "relationshipPanels": {
+        "housingProject": {
+            "layout": null,
+            "selectPrimaryFilterName": null
+        },
+        "contact": {
+            "layout": null,
+            "selectPrimaryFilterName": null
+        },
+        "opportunity": {
+            "layout": null,
+            "selectPrimaryFilterName": null
+        }
+    },
+    "menu": {
+        "list": {
+            "buttons": [
+                {
+                    "name": "chessboard",
+                    "label": "Chessboard",
+                    "link": "#CProperty/chessboard",
+                    "acl": "read",
+                    "iconHtml": "<span class=\"fas fa-th\"></span>"
+                }
+            ]
+        }
+    }
+}

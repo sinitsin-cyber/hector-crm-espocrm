@@ -1,0 +1,49 @@
+{
+    "controller": "controllers/record",
+    "boolFilterList": [
+        "onlyMy"
+    ],
+    "color": "#6a8caf",
+    "iconClass": "fas fa-map-marked-alt",
+    "relationshipPanels": {
+        "properties": {
+            "layout": null,
+            "selectPrimaryFilterName": null
+        }
+    },
+    "menu": {
+        "detail": {
+            "buttons": [
+                {
+                    "name": "chessboard",
+                    "label": "Chessboard",
+                    "handler": "custom:handlers/c-housing-project/chessboard",
+                    "actionFunction": "open",
+                    "iconHtml": "<span class=\"fas fa-th\"></span>"
+                },
+                {
+                    "name": "generateUnits",
+                    "label": "Generate Units",
+                    "handler": "custom:handlers/c-housing-project/generate-units",
+                    "actionFunction": "generate",
+                    "acl": "create",
+                    "aclScope": "CProperty",
+                    "iconHtml": "<span class=\"fas fa-magic\"></span>"
+                }
+            ]
+        }
+    },
+    "bottomPanels": {
+        "detail": [
+            {
+                "name": "chessboard",
+                "label": "Chessboard",
+                "view": "custom:views/c-housing-project/panels/chessboard",
+                "order": 1
+            }
+        ]
+    },
+    "recordViews": {
+        "detail": "custom:views/c-housing-project/record/detail"
+    }
+}

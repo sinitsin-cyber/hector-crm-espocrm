@@ -1,0 +1,29 @@
+{
+    "fields": {
+        "name": "Название",
+        "address": "Адрес",
+        "description": "Описание",
+        "properties": "Объекты",
+        "entrances": "Подъездов",
+        "floors": "Этажей",
+        "unitsPerFloor": "Квартир на этаже"
+    },
+    "links": {
+        "properties": "Объекты"
+    },
+    "labels": {
+        "Create CHousingProject": "Создать проект",
+        "Chessboard": "Шахматка",
+        "Generate Units": "Создать квартиры"
+    },
+    "tooltips": {
+        "unitsPerFloor": "Подъезды × этажи × квартиры на этаже — по ним кнопка «Создать квартиры» строит шахматку. Для посёлка оставьте пустыми."
+    },
+    "strings": {
+        "needParams": "Заполните «Подъездов», «Этажей» и «Квартир на этаже» и сохраните проект.",
+        "confirmGenerate": "Создать {count} квартир (подъездов: {entrances}, этажей: {floors}, на этаже: {perFloor})? Уже существующие квартиры не трогаются.",
+        "nothingToGenerate": "Все квартиры по этой схеме уже созданы.",
+        "generating": "Создаю квартиры: {done} из {count}…",
+        "generated": "Создано квартир: {count}."
+    }
+}
